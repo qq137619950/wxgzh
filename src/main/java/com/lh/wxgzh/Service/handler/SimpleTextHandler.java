@@ -41,7 +41,6 @@ public class SimpleTextHandler extends AbsHandler {
             } else if (content.contains("美女")) {
                 List<ArticleItem> items = new ArrayList<>();
                 ArticleItem item = new ArticleItem();
-                item = new ArticleItem();
                 item.setTitle("想看美女吗?");
                 item.setDescription("想看美女自己百度！");
                 item.setPicUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505100912368&di=69c2ba796aa2afd9a4608e213bf695fb&imgtype=0&src=http%3A%2F%2Ftx.haiqq.com%2Fuploads%2Fallimg%2F170510%2F0634355517-9.jpg");
